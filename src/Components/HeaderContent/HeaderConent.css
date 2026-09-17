@@ -1,4 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
 #navcontent {
     min-height: 20vh;
-    background-color: #2dffd6;
+    background-color: #000000; /* Black background එක සඳහා */
+    display: flex;
+    justify-content: space-between; /* ඉමේජ් එක වම් පසටත්, ඩිව් එක දකුණු පසටත් වෙන් කරයි */
+    align-items: center; /* සිරස් අතට මැදට සකස් කරයි */
+    padding: 0 40px; /* දෙපැත්තට අවශ්‍ය ඉඩ ප්‍රමාණය */
+}
+
+#navcontent img {
+    height: 40px; /* අවශ්‍ය පරිදි ලාංඡනයේ ප්‍රමාණය සකස් කරගන්න */
+}
+
+#navcontent div {
+    display: flex;
+    gap: 20px; /* මෙනු ලින්ක් අතර පරතරය */
 }

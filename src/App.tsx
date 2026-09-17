@@ -1,7 +1,6 @@
 import './App.css'
 import HeaderContent from "./Components/HeaderContent/HeaderContent.tsx";
 import BodyContent from "./Components/BodyContent/BodyContent.tsx";
-import FooterContent from "./Components/FooterConent/FooterContent.tsx";
 function App() {
 
 
@@ -9,10 +8,13 @@ function App() {
       <>
        <div id="wrapper">
        <HeaderContent/>
-       <BodyContent/>
-       <FooterContent/>
-
-
+           <BodyContent>
+               <button>click</button>
+          <p>Lorem sjkahjofhbofhqpofhqfpe</p>
+           </BodyContent>
+           <BodyContent>
+               <button>click</button>
+           </BodyContent>
        </div>
       </>
 
